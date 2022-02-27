@@ -37,7 +37,7 @@ function addItem() {
     ul.appendChild(li);
     store();
   }
-  // Changes li tag on click
+  // Changes li tag on click. Why does this only work sometimes???!
   var ul = document.querySelector('ul');
   ul.addEventListener('click', (event) => {
     console.log(event.target.tagName);
